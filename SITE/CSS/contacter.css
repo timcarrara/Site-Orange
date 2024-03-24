@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+
+body{
+    background-color:black;
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding:0px;
+    box-sizing: border-box;
+}
+.logo img{
+    position:relative;
+    width: 105px;
+    margin-top: 5px;
+}
+.menu1{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    align-items: center;
+}
+.menu1 ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+}
+.menu1 ul li a{
+    padding: 25px;
+    margin-right: 8px;
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-family: "Ubuntu"
+}
+.menu1 ul li::after{
+    content:'';
+    bottom: -10px;
+    transition: 0.3s;
+    background: orange;
+    width:0;
+    height:3px;
+    position: absolute;
+    left:0;
+}
+.menu1 ul li:hover::after{
+    width:100%;
+}
+.menu1 ul li a:hover{
+    color:orange
+}
+.arriere-plan{
+    top: 0;
+    background-image: url(https://www.edcom.fr/actu/images/Actu-mvno-06-08-19.jpg);
+    background-size: 100%;
+    height: 1800px;
+    opacity: 0.7;
+    background-attachment: fixed;
+}
+.titre h1{
+    text-align: center;
+    padding: 45px;
+    font-size: 45px;
+    font-family: "Ubuntu";
+}
+.box-instagram{
+    box-shadow: 5px 5px 5px 5px rgb(244, 97, 5);
+    position: absolute;
+    background-color: black;
+    border-radius: 25%;
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    padding: 10px;
+}
+.box-instagram h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-instagram img{
+    width:200px;
+    position:relative;
+    justify-content: center;
+    padding-top: 10px 10px 10px;
+}
+.box-twitter{
+    box-shadow: 5px 5px 5px 5px rgb(244, 97, 5);
+    position: absolute;
+    background-color: black;
+    border-radius: 25%;
+    width: auto;
+    height: auto;
+    margin-left: 300px;
+    padding: 10px;
+}
+.box-twitter img{
+    width:200px;
+    position:relative;
+    justify-content: center;
+    padding-top: 10px 10px 10px;
+}
+.box-twitter h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-pinterest{
+    box-shadow: 5px 5px 5px 5px rgb(244, 97, 5);
+    position: absolute;
+    background-color: black;
+    border-radius: 25%;
+    width: auto;
+    height: auto;
+    margin-left: 600px;
+    padding: 10px;
+}
+.box-pinterest img{
+    width:200px;
+    position:relative;
+    justify-content: center;
+    padding-top: 10px 10px 10px;
+}
+.box-pinterest h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-youtube{
+    box-shadow: 5px 5px 5px 5px rgb(244, 97, 5);
+    position: absolute;
+    background-color: black;
+    border-radius: 25%;
+    width: auto;
+    height: auto;
+    margin-left: 900px;
+    padding: 10px;
+}
+.box-youtube img{
+    width:200px;
+    position:relative;
+    justify-content: center;
+    padding-top: 10px 10px 10px;
+}
+.box-youtube h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-facebook{
+    box-shadow: 5px 5px 5px 5px rgb(244, 97, 5);
+    position: absolute;
+    background-color: black;
+    border-radius: 25%;
+    width: auto;
+    height: auto;
+    margin-left: 1200px;
+    padding: 10px;
+}
+.box-facebook img{
+    width:200px;
+    position:relative;
+    justify-content: center;
+    padding-top: 10px 10px 10px;
+}
+.box-facebook h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-linkedin{
+    box-shadow: 5px 5px 5px 5px rgb(244, 97, 5);
+    position: absolute;
+    background-color: black;
+    border-radius: 25%;
+    width: auto;
+    height: auto;
+    margin-left: 450px;
+    margin-top: 325px;
+    padding: 10px;
+}
+.box-linkedin img{
+    width:200px;
+    position:relative;
+    justify-content: center;
+    padding-top: 10px 10px 10px;
+}
+.box-linkedin h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-tiktok{
+    box-shadow: 5px 5px 5px 5px rgb(244, 97, 5);
+    position: absolute;
+    background-color: black;
+    border-radius: 25%;
+    width: auto;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 325px;
+    padding: 10px;
+}
+.box-tiktok img{
+    width:200px;
+    position:relative;
+    justify-content: center;
+    padding-top: 10px 10px 10px;
+}
+.box-tiktok h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-instagram img:hover, .box-twitter img:hover, .box-pinterest img:hover, .box-youtube img:hover, .box-facebook img:hover, .box-linkedin img:hover, .box-tiktok img:hover{
+    width: 225px;
+    transition: 0.3s;
+}
+.titre2 h1{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 700px;
+    font-family: "Ubuntu";
+}
+.box-emploie{
+    box-shadow: 5px 5px 5px 5px rgb(244, 97, 5);
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10%;
+    width: auto;
+    height: auto;
+    margin-left: 80px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.box-emploie img{
+    width:200px;
+    position:relative;
+    background-color: rgb(255, 111, 0);
+    border-radius: 50%;
+    padding-top: 10px 10px 10px;
+    margin-top: 15px;
+    margin-left: 70px;
+}
+.box-emploie h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-emploie h1 a{
+    color: white;
+}
+.box-aide{
+    box-shadow: 5px 5px 5px 5px rgb(244, 97, 5);
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10%;
+    width: 598px;
+    height: auto;
+    margin-left: 780px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.box-aide img{
+    width:200px;
+    height: 183px;
+    position:relative;
+    background-color: rgb(255, 111, 0);
+    border-radius: 50%;
+    padding-top: 10px 10px 10px 10px;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+.box-aide h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-aide h1 a{
+    color: white;
+}
+.box-problemes{
+    box-shadow: 5px 5px 5px 5px rgb(244, 97, 5);
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10%;
+    width: 598px;
+    height: auto;
+    margin-left: 430px;
+    margin-top: 445px;
+    padding: 10px;
+}
+.box-problemes img{
+    width:200px;
+    height: 183px;
+    position:relative;
+    background-color: rgb(255, 111, 0);
+    border-radius: 50%;
+    padding-top: 10px 10px 10px 10px;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+.box-problemes h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    background-color: black;
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+}
+.contenu-footer{
+    width: 100%;
+    padding:10px;
+}
+.menu-footer{
+    margin: 20px;
+}
+.menu-footer ul{
+    display: flex;
+    justify-content: center;
+}
+.menu-footer ul li a{
+    color:white;
+    margin:20px;
+    text-decoration: none;
+    font-size:1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+    font-family: "Ubuntu"
+}
+.menu-footer ul li a:hover{
+    opacity:1
+}
+.bas-footer{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-size: Arial, Helvetica, sans-serif
+}

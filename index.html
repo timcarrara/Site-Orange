@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="interaction_fleches.js"></script>
+    <title>Orange | Accueil</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="SITE/icone-orange.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header>
+        <nav class="menu1">
+            <div class="logo">
+                <a href="index.html"><img src="https://tous-logos.com/wp-content/uploads/2017/07/logo-Orange.png" alt="image"></a>
+            </div>
+            <ul>
+                <li data-aos="fade-down" data-aos-delay="300"><a href="SITE/HTML/histoire.html"> NOTRE HISTOIRE </a></li>
+                <li data-aos="fade-down" data-aos-delay="600"><a href="SITE/HTML/economie.html"> NOTRE ÉCONOMIE </a></li>
+                <li data-aos="fade-down" data-aos-delay="900"><a href="SITE/HTML/engagements.html"> NOS ENGAGEMENTS </a></li>
+                <li data-aos="fade-down" data-aos-delay="1200"><a href="SITE/HTML/actualites.html"> NOS ACTUALITÉS </a></li>
+                <li data-aos="fade-down" data-aos-delay="1500"><a href="SITE/HTML/propos.html"> À PROPOS </a></li>
+                <li data-aos="fade-down" data-aos-delay="1800"><a href="SITE/HTML/contacter.html"> NOUS CONTACTER </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="fond1">
+        <div class="haut-de-page">
+            <div class="titre">
+                <h1>Bienvenue chez Orange</h1>
+                <p>Vous rapprocher de l'essentiel</p>
+            </div>
+
+            <div class="image1">
+                <img src="https://boutique.orange.fr/informations/medias/img/325x453-marque-orange-acq-forfait.jpg" alt="image" style="width:160px">
+            </div>
+
+            <div class="image2">
+                <img src="https://img.android.com.pl/images/user-images/2017/12/iPhone-senior.jpg" alt="image" style="width:230px">
+            </div>
+
+            <div class="image3">
+                <img src="https://media.ouest-france.fr/v1/pictures/MjAyMzA0NGUwN2Y5MjhjMGM5ZDJjMWRjY2ZjZWEzZTUyYTgyM2I?width=1260&height=708&focuspoint=50%2C25&cropresize=1&client_id=bpeditorial&sign=05b98d3e0f18acf52d2672a48d5d22f836b3501ddfc0a14ff9f076b14cd761f0" alt="image" style="width:250px">
+            </div>
+        </div>
+    </div>
+
+    <div class="fond2">
+        <div class="sommaire">
+    
+            <div class="Histoire">
+                <h2>1. Notre Histoire</h2>
+                <p>De sa création en 1994 à l'heure actuelle, entre péripéties et succés de marque. Découvrez l'histoire de Orange (<a href="SITE/HTML/histoire.html"> en savoir plus </a>)</p>
+            </div>
+
+            <div class="image4">
+                <a href="SITE/HTML/histoire.html"><img src="IMAGE/telephone.png" alt="image" style="transform: rotate(-35deg)"></a>
+            </div>
+
+            <div class="Economie">
+                <h2>2. Notre Economie</h2>
+                <p>Découvrez les différents aspects économique d'Orange et ce qui leur a permis de se hisser a la dixième place du classement mondial des entreprises de télécommunication 
+                <br>
+                ( <a href="SITE/HTML/economie.html"> en savoir plus </a> )</p>
+            </div>
+
+            <div class="image5">
+                <a href="SITE/HTML/economie.html"><img src="IMAGE/Bourse.png" alt="image"></a>
+            </div>
+
+            <div class="Engagements">
+                <h2>3. Nos Engagements</h2>
+                <p>Orange est de plus en plus impliqués pour s'adapter au monde qui l'entoure. Découvrez leurs engagements à travers différentes causes 
+                <br>
+                ( <a href="SITE/HTML/engagements.html"> en savoir plus </a> )</p>
+            </div>
+
+
+            <div class="image6">
+                <a href="SITE/HTML/engagements.html"><img src="IMAGE/ecologie.png" alt="image" style="transform: rotate(5deg);"></a>
+            </div>
+        
+            <div class="trait2">
+                <hr>
+            </div>
+
+            <p class="Actualites">NOS ACTUALITES</p>
+
+            <div id="slider">
+                <img src="IMAGE/ImageActu1.jpg" alt="1ere actu" id="slide">
+                <p class="legende legende1 active"><strong>Câbles sous-marins :</strong> Orange renouvelle sa flotte avec un nouveau navire, le "Sophie Germain" <a href="SITE/HTML/actualites.html">lire plus...</a></p>
+                <p class="legende legende2"><strong>Développement durable :</strong> Orange et Centre Morbihan communauté lancent une collecte de mobiles usagés jusqu'au 26 novembre <a href="SITE/HTML/actualites.html">lire plus...</a></p>
+                <p class="legende legende3"><strong>Séisme d'Al Haouz :</strong> Détails des actions entreprises par Orange Maroc pour venir en aide aux victimes <a href="SITE/HTML/actualites.html">lire plus...</a></p>
+                <div id="precedent" onclick="ChangeSlide(-1)">&lt;</div>
+                <div id="suivant" onclick="ChangeSlide(1)">&gt;</div>
+            </div>
+        </div>
+    </div>
+
+        <footer>
+            <div class="contenu-footer">
+                <div class="menu-reseau">
+                    <a href="https://www.instagram.com/orange/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.pinterest.fr/orangefrance/"><i class="fa fa-pinterest"></i></a>
+                    <a href="https://www.facebook.com/Orange.France/?locale=fr_FR"><i class="fa fa-facebook"></i></a>  
+                    <a href="https://fr.linkedin.com/company/orange"><i class="fa fa-linkedin"></i></a>    
+                    <a href="https://twitter.com/orange"><i class="fi fi-brands-twitter-alt-circle"></i></a>  
+                </div>
+
+                <div class="menu-footer">
+                    <ul>
+                        <li><a href="SITE/HTML/histoire.html"> Notre Histoire </a></li>
+                        <li><a href="SITE/HTML/economie.html"> Notre Économie </a></li>
+                        <li><a href="SITE/HTML/engagements.html"> Nos Engagements </a></li>
+                        <li><a href="SITE/HTML/actualites.html"> Nos Actualités </a></li>
+                        <li><a href="SITE/HTML/propos.html"> À Propos </a></li>
+                        <li><a href="SITE/HTML/contacter.html"> Nous Contacter </a></li>
+                    </ul>
+                </div>
+            
+                <div class="bas-footer">
+                    <p>© Groupe 1 / S1A1-2 - Tim CARRARA</p>
+                </div>
+            </div>
+        
+        </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

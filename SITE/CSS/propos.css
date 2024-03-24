@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(rgba(177, 83, 6, 0.474), rgba(255, 166, 0, 0.693), rgba(255, 68, 0, 0.605))}
+*{
+    margin: 0;
+    padding:0px;
+    box-sizing: border-box;
+}
+.logo img{
+    position:relative;
+    width: 105px;
+    margin-top: 5px;
+}
+.menu1{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    align-items: center;
+    width: 100%
+}
+.menu1 ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+}
+
+.menu1 ul li a{
+    padding: 25px;
+    margin-right: 8px;
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-family: 'Ubuntu';
+}
+
+.menu1 ul li::after{
+    content:'';
+    bottom: -10px;
+    transition: 0.3s;
+    background: orange;
+    width:0;
+    height:3px;
+    position: absolute;
+    left:0;
+}
+
+.menu1 ul li:hover::after{
+    width:100%;
+}
+
+.menu1 ul li a:hover{
+    color: orange;
+}
+
+h1{
+    font-size: 50px;
+    font-family: "Ubuntu";
+    text-align: center;
+    padding:20px
+}
+.Christel{
+    margin-left:25%;
+    margin-top: -15px;
+}
+.Christel h2{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: "Inclusive Sans";
+}
+.Christel h3{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -50px;
+    padding-bottom: 25px;
+}
+.Jacques{
+    margin-left:57%;
+    margin-top: -477px;
+}
+.Jacques h2{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: "Inclusive Sans";
+    margin-left: -10px;
+}
+.Jacques h3{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -13px;
+    padding-bottom: 25px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.paragraphe{
+    border: 3px solid black;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 15px;
+}
+footer{
+    background-color: black;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+}
+.contenu-footer{
+    width: 100%;
+    padding:10px;
+}
+.menu-reseau{
+    display: flex;
+    justify-content: center;
+}
+.menu-reseau a{
+    text-decoration: none;
+    margin-inline: 20px;
+}
+.menu-reseau a i{
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+.menu-footer{
+    margin: 30px;
+}
+.menu-footer ul{
+    display: flex;
+    justify-content: center;
+}
+.menu-footer ul li a{
+    color:white;
+    margin:20px;
+    text-decoration: none;
+    font-size:1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+    font-family:"Ubuntu"
+}
+.menu-footer ul li a:hover{
+    opacity:1
+}
+.bas-footer{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.bas-footer{
+    color: white;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif
+}
